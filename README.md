@@ -2,4 +2,4 @@
 
 ## This is the home folder for all my projects.
 
-I will make changes to this **readme** if I do a lot of stuff.
+This is the URL for homework 2:https://sowchan.github.io/215-repos/eventsy-hero/
