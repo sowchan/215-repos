@@ -5,13 +5,13 @@
 } 
 
 .hero {
-    width: 1280px;
+    @include center-content(1280px, 0 auto)
     height: 100%;
     background-image: linear-gradient(to right, 
     rgba($siteyellow,0.8),
     rgba($siteyellow,0.8)),
     url('../images/home-hero.jpg');
-    margin: 0 auto;
+    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

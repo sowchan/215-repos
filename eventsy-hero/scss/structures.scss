@@ -13,3 +13,36 @@ html, body {
 h1,h2,h3,h4,h5,h6,p {
     margin-bottom: 16px;
 }
+
+.inputs {
+    height: 400px;
+    @include center-content();
+    background-color: $sitepink;
+    padding: 50px;
+
+ input{
+     width: 529px;
+     height: 60px;
+     font-size: 16px;
+     padding-left: 20px;
+     color: rgba($color: $sitewhite, $alpha: 0.5);
+     background-color: $sitelightpink;
+     border: 1px solid $sitepurple;
+
+     &:focus {
+        input:focus, textarea:focus {
+            outline: none;
+        }
+        &:placeholder-shown {
+            color: rgba($sitewhite, $alpha:0.5);
+            }
+     } 
+     .submit-button{
+         background-color: $sitewhite;
+         color: $sitepink;
+         width: 167px;
+         margin-left: -5px;
+
+     }
+ }
+}
