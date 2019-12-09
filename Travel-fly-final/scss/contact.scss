@@ -1,0 +1,84 @@
+.contact-line {
+    width: 160px;
+    height: 3px;
+    background-color: #000;
+}
+
+.contact-line p{
+    color: white;
+}
+
+.map{
+    height:442px;
+    width: 400px;
+}
+
+.map-holder{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.address{
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	
+}
+
+.form-style-6{;
+	padding: 16px;
+    background: #fff;
+    margin-top:-15px;
+}
+
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #F5F5F5;
+	margin-bottom: 4%;
+	border: 1px solid #fff;
+	padding: 3%;
+	color:rgba(#000000,0.5);
+    font: 95% Arial, Helvetica, sans-serif;
+    height: 60px;
+}
+
+textarea.message{
+    height: 200px;
+}
+
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 33%;
+	padding: 3%;
+	background: $siteblue;
+	border-bottom: 2px solid;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+    height: 60px ;
+}
+
+input[type="text"] {
+    color: gray;
+}

@@ -1,0 +1,30 @@
+[{
+    "title": "My first Blog post",
+    "author":"Sowmya Chandra",
+    "publishDate": "25 Nov 2019",
+    "story": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, repellendus ducimus sequi illo consequuntur neque autem dolor! Eligendi eaque, ullam, provident minus recusandae corrupti molestiae enim reprehenderit accusamus iusto voluptatem?",
+    "comments": [
+        {
+            "userName": "Scott",
+            "commentDate": "11-29-19",
+            "comment": "Your post sucks"
+        }
+    ]
+},
+{
+    "title": "My second Blog post",
+    "author":"Sowmya Chandra",
+    "publishDate": "25 Nov 2019",
+    "story": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, repellendus ducimus sequi illo consequuntur neque autem dolor! Eligendi eaque, ullam, provident minus recusandae corrupti molestiae enim reprehenderit accusamus iusto voluptatem?",
+    "comments": [
+        {
+            "userName": "Scott",
+            "commentDate": "11-29-19",
+            "comment": "Your post sucks more"
+        }
+    ]
+}
+
+
+
+]

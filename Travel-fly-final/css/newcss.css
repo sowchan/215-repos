@@ -1,0 +1,357 @@
+/* 
+___________________________________________________________________________ 
+Index.html   
+___________________________________________________________________________ 
+*/
+
+.hero {
+   width: 100%;
+   max-width: 1280px;;
+}
+
+.navicon {
+   display: none;
+}
+
+.bookingform {
+   margin-left: 0px;
+}
+
+.section {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.content {
+   max-width: 980px;
+   width: 100%
+}
+
+@media (max-width: 980px) {
+   nav {
+      width: 100%;
+      padding: 0 20px;
+   }
+
+   nav .link-wrap {
+     margin-top: 250px;
+     padding-top: 50px;
+      display: flex;;
+   }
+   nav .link-wrap .links {
+     z-index: 9;
+     padding: 20px 0;
+     display: none;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     margin-right: -30px;
+     width: 200px;
+     background: #262626;
+     border-radius: 10px; }
+   nav .link-wrap:hover > .links {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex; }
+   nav .link-wrap .links a {
+     margin-bottom: 20px; }
+   nav .link-wrap .links span {
+     display: none; 
+   }
+   nav .link-wrap .navicon {
+     color: #fff;
+     margin-top: -160px;
+     
+     display: block; }
+   .packages {
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     width: 100%; }
+   .location {
+     margin: 20px;
+     width: 60%; 
+   
+   }
+
+
+   .main-form, .bookingform {
+     width: 100%;
+     padding: 0 10%; 
+     margin-left: 0px;
+   }
+
+   .form {
+      height: auto;
+   }
+
+   .form-style-1 {
+     width: 100%;
+     padding: 0 10%; }
+   .name-email {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     width: 100%; }
+   .name, .email {
+     width: 100%;
+     margin-left: 0px; }
+   .checking-in-out {
+     width: 100%; }
+    .check-in {
+     width: 100%;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex; }
+    .checking-in {
+     width: auto; }
+   .passengers {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     width: 100%;
+     margin-top: 20px; }
+   .form-style-2 .textarea-field {
+     width: 100%; }
+   .form-style-2 label input {
+     margin-top: 20px;
+     width: 100% !important; 
+   } 
+ }
+
+
+
+/* 
+___________________________________________________________________________ 
+about.html   
+___________________________________________________________________________ 
+*/
+@media (max-width: 980px) {
+
+   .about, .clients {
+      margin-left: 20px;
+   }
+
+   .about-title {
+      font-size: 30px;
+      }
+   .about-text, .client1 {
+      width: 100%;
+      padding: 0 20px 0 0;
+   }
+   .quoter {
+      margin-left: 0;
+      margin-top: -10px;;
+   }
+
+
+}
+
+
+/* 
+___________________________________________________________________________ 
+tours.html   
+___________________________________________________________________________ 
+*/
+@media (max-width: 980px) {
+   .tour-main {
+      width: 100%;
+   }
+
+   .packages1 {
+      width: 100%;
+      flex-direction: column;;
+   }
+}
+
+/* 
+___________________________________________________________________________ 
+israel.html   
+___________________________________________________________________________ 
+*/
+
+@media (max-width: 980px) {
+   .israel-header {
+      width: 100%;
+   }
+   .place-image-text {
+      font-size: 30px;
+   }
+   .place-price{
+      width: 100%;
+      margin:0 0 0 20px;
+
+      font-size: 16px;
+   }
+
+   .packages2 {
+      width: 100%;
+      flex-direction: column;
+      
+   }
+
+   .israel-picture1, .israel-picture2, .israel-picture3 {
+      width: 100%;
+      margin: 20px;
+   }
+
+   .usa-picture1, .usa-picture2, .usa-picture3 {
+      width: 100%;
+      margin: 20px;
+   }
+   .aus-picture1, .aus-picture2, .aus-picture3 {
+      width: 100%;
+      margin: 20px;
+   }
+   .newz-picture1, .newz-picture2, .newz-picture3 {
+      width: 100%;
+      margin: 20px;
+   }
+   .france-picture1, .france-picture2, .france-picture3 {
+      width: 100%;
+      margin: 20px;
+   }
+
+   .egypt-picture1, .egypt-picture2, .egypt-picture3 {
+      width: 100%;
+      margin: 20px;
+   }
+
+   .canada-picture1, .canada-picture2, .canada-picture3 {
+      width: 100%;
+      margin: 20px;
+   }
+
+   .uae-picture1, .uae-picture2, .uae-picture3 {
+      width: 100%;
+      margin: 20px;
+   }
+.under-line p{
+   font-size: 0px;
+   color: white;
+}
+   .japan-picture1, .japan-picture2, .japan-picture3 {
+      width: 100%;
+      margin: 20px;
+   }
+   .day-plan {
+      width: 100%;
+      margin: 20px;
+   }
+
+   .day-1 {
+      font-size: 30px; 
+   }
+
+   .day-desc{
+      margin-right: 20px;;
+   }
+}
+
+/* 
+___________________________________________________________________________ 
+special.html   
+___________________________________________________________________________ 
+*/
+
+@media (max-width: 980px) {
+
+   .offers-top, .offer-places {
+      margin-left: 20px ;
+   }
+
+   .offers-title {
+      font-size: 30px;
+   }
+}
+
+/* 
+___________________________________________________________________________ 
+blog.html   
+___________________________________________________________________________ 
+*/
+
+@media (max-width: 980px) {
+   .blog-list {
+      width: 100%;
+   }
+
+   .blog1 {
+      margin-left: 20px;
+   }
+
+   .blog-image {
+      width: 100%;
+   }
+}
+
+/* 
+___________________________________________________________________________ 
+contact.html   
+___________________________________________________________________________ 
+*/
+
+@media (max-width: 980px) {
+   .offer1 {
+      
+    flex-direction: column;
+   }
+   .offer-places {
+      height: auto;
+   }
+   .map-holder {
+      padding: 0px;
+   }
+
+   
+   .map-holder > iframe {
+      width: calc(100% - 40px);
+   }
+
+   .form-style-6 {
+      padding: 20px 0;
+      width: 100%;
+      padding-right: 40px;;
+   }
+
+   .form-style-6 > form {
+      width: 100%;
+   }
+
+
+   .form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select{
+   color: #000;
+}
+
+
+   .form-style-6 input[type="text"]::placeholder,
+   .form-style-6 input[type="date"]::placeholder,
+   .form-style-6 input[type="datetime"]::placeholder,
+   .form-style-6 input[type="email"]::placeholder,
+   .form-style-6 input[type="number"]::placeholder,
+   .form-style-6 input[type="search"]::placeholder,
+   .form-style-6 input[type="time"]::placeholder,
+   .form-style-6 input[type="url"]::placeholder,
+   .form-style-6 textarea::placeholder,
+   .form-style-6 select::placeholder
+   {
+      color: rgba(0,0,0,0.5)
+   }
+}

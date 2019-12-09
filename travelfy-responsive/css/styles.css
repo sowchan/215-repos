@@ -17,8 +17,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #000; }
 
 .hero {
-  width: 100%;
-  max-width: 1280px;
+  width: 1280px;
   height: 100%;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/hero.jpg");
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/hero.jpg");
@@ -63,7 +62,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 nav {
   width: 100%;
-/*width: 980px;*/
+  /*width: 980px;*/
   height: 92px;
   margin: 0 auto;
   border-bottom: 2px solid #fff;
@@ -75,9 +74,7 @@ nav {
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; 
- padding: 0 20px;
-}
+  justify-content: space-between; }
 
 .logo-rect {
   height: 42px;
@@ -93,14 +90,7 @@ nav {
   margin-left: 2px;
   font-size: 20px;
   font-family: 'Lato', sans-serif; }
-nav .link-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
+
 .links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,9 +110,82 @@ nav .link-wrap {
     margin: 0 20px;
     color: #79ADDC;
     font-size: 21px; }
-  .navicon {
-    display:none;
-  }
+  @media (max-width: 768px) {
+    .links nav .link-wrap {
+      margin-top: 250px;
+      padding-top: 50px; }
+    .links nav .link-wrap .links {
+      z-index: 9;
+      padding: 20px 0;
+      display: none;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-right: -30px;
+      width: 200px;
+      background: #262626;
+      border-radius: 10px; }
+    .links nav .link-wrap:hover > .links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .links nav .link-wrap .links a {
+      margin-bottom: 20px; }
+    .links nav .link-wrap .links span {
+      display: none; }
+    .links nav .link-wrap .navicon {
+      color: #fff;
+      margin-top: -300px;
+      display: block; }
+    .links .packages {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 100%; }
+    .links .israel, .links .usa, .links .aus {
+      margin: 20px;
+      width: 60%; }
+    .links .bookingform {
+      width: 100%;
+      padding: 0 10%; }
+    .links .form-style-1 {
+      width: 100%;
+      padding: 0 10%; }
+    .links .name-email {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 100%; }
+    .links .name, .links .email {
+      width: 100%;
+      margin-left: 0px; }
+    .links .checking-in-out {
+      width: 100%; }
+    .links .check-in {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .links .checking-in {
+      width: auto; }
+    .links .passengers {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      margin-top: 20px; }
+    .links .form-style-2 .textarea-field {
+      width: 100%; }
+    .links .form-style-2 label input {
+      margin-top: 20px;
+      width: 100%; } }
+
 .packages {
   width: 900px;
   display: -webkit-box;
@@ -248,12 +311,13 @@ nav .link-wrap {
 
 .bookingform {
   font-family: 'Roboto', sans-serif;
-  font-size: 48px;
+  font-size: 60px;
   margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 818px; }
+  width: 818px;
+  margin-left: 540px; }
 
 ::-webkit-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -599,93 +663,3 @@ s
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row; }
-
-    @media (max-width: 768px) {
-      nav .link-wrap {
-        margin-top: 250px;
-        padding-top: 50px;
-      }
-      nav .link-wrap .links {
-        z-index: 9;
-        padding: 20px 0;
-        display: none;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        margin-right: -30px;
-        width: 200px;
-        background: #262626;
-        border-radius: 10px;
-      }
-      nav .link-wrap:hover > .links {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-      }
-      nav .link-wrap .links a {
-        margin-bottom: 20px;
-      }
-      nav .link-wrap .links span {
-        display: none;
-      }
-      nav .link-wrap .navicon {
-        color:#fff;
-        margin-top: -300px;
-        display: block;
-      }
-
-      .packages {
-        flex-direction: column;
-        width: 100%;
-      }
-
-      .israel, .usa, .aus {
-        margin: 20px;
-        width: 80%;
-      }
-
-      .bookingform {
-        width: 100%;
-        padding: 0 10%;
-      }
-      .form-style-1 {
-        width: 100%;
-        padding: 0 10%;
-      }
-      .name-email {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-      }
-      .name, .email {
-        width: 100%;
-        margin-left: 0px;
-      }
-
-      .checking-in-out {
-        width: 100%;
-      } 
-      .check-in {
-        width: 100%;
-        display: flex;
-      }
-      .checking-in{
-        width: auto;
-      }
-
-      .passengers {
-        display: flex;
-        width: 100%;
-        margin-top: 20px;  
-      }
-
-      .form-style-2 .textarea-field {
-        width:100%;
-      }
-
-      .form-style-2 label input{
-        margin-top: 20px;
-        width:100%;
-      }
-    }

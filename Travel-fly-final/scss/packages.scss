@@ -1,0 +1,93 @@
+.packages{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -50px;
+}
+    .israel {
+        height: 304px;
+        background-image: linear-gradient(
+            to right,
+            rgba(#000, 0.5),
+            rgba(#000, 0.5)
+          ),
+          url("../images/tour/tour-01.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    }
+    .learn-more-button {
+        padding: 10px 25px;
+       background-color: $siteblue;
+       text-decoration: none;
+       color: $sitewhite;
+       margin-top: 30px;
+       border-radius: 20px 20px 20px 20px;
+    }
+
+    .country{
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+        color: $sitewhite;
+        margin-top: -40px;
+        text-transform: capitalize;
+    }
+
+    .price {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        font-size: 30px;
+        color: $sitewhite;
+    }
+    .usa {
+        height: 304px;
+        background-image: linear-gradient(
+            to right,
+            rgba(#000, 0.5),
+            rgba(#000, 0.5)
+          ),
+          url("../images/tour/tour-02.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    }
+
+    .aus {
+        height: 304px;
+        background-image: linear-gradient(
+            to right,
+            rgba(#000, 0.5),
+            rgba(#000, 0.5)
+          ),
+          url("../images/tour/tour-03.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    }
+
+    .location{
+        margin: 20px 0;
+        width: 236px;
+    }
